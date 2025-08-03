@@ -1,0 +1,14 @@
+export { default as DockerIcon } from './DockerIcon';
+export * from './DockerIcon';
+export { default as EslintIcon } from './EslintIcon';
+export * from './EslintIcon';
+export { default as JsIcon } from './JsIcon';
+export * from './JsIcon';
+export { default as JsonIcon } from './JsonIcon';
+export * from './JsonIcon';
+export { default as NodeIcon } from './NodeIcon';
+export * from './NodeIcon';
+export { default as ReactIcon } from './ReactIcon';
+export * from './ReactIcon';
+export { default as TsIcon } from './TsIcon';
+export * from './TsIcon';

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="12,2 21,7 21,17 12,22 3,17 3,7"/>
+  <path d="M9 9v6l3 2 3-2V9"/>
+</svg>

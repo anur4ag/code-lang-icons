@@ -1,0 +1,77 @@
+# ------------------------------
+# Node / Package managers
+# ------------------------------
+node_modules/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnp.*
+.pnp.cjs
+.pnpm-store/
+
+# ------------------------------
+# Build outputs / Artifacts
+# ------------------------------
+dist/
+coverage/
+*.tsbuildinfo
+*.map
+
+# Local logs and caches
+.logs/
+*.log
+.eslintcache
+.cache/
+vite.cache/
+tsup-cache/
+turbo/
+.next/
+out/
+.storybook-out/
+
+# ------------------------------
+# Env / Secrets
+# ------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------
+# IDE / OS
+# ------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ------------------------------
+# Test / Reports
+# ------------------------------
+*.lcov
+junit.xml
+
+# ------------------------------
+# Husky internal (keep hooks, ignore internal build)
+# ------------------------------
+.husky/_/*
+
+# ------------------------------
+# Changesets (keep changes; ignore temp artifacts)
+# ------------------------------
+.changeset/*.json
+
+# ------------------------------
+# Generated icons (source stays tracked under src)
+# If you choose to ignore generated TSX, uncomment below.
+# src/icons/generated/*.tsx
+
+# ------------------------------
+# Temporary / Misc
+# ------------------------------
+tmp/
+temp/
+*.tmp
