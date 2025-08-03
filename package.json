@@ -96,6 +96,8 @@
     "lint": "eslint . --ext .ts,.tsx",
     "format": "prettier --write .",
     "prepare": "husky",
+    "precommit:staged": "lint-staged",
+    "precommit:verify": "pnpm -s build:check",
     "release": "changeset version && pnpm install && pnpm build && changeset publish",
     "prepublishOnly": "pnpm build",
     "test": "echo \"(tests skipped)\"",

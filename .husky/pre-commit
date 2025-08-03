@@ -1,4 +1,11 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-pnpm lint-staged
+# Ensure corepack/pnpm is available
+command -v pnpm >/dev/null 2>&1 || command -v corepack >/dev/null 2>&1 && corepack enable
+
+echo "[pre-commit] Linting and formatting staged files..."
+pnpm -s precommit:staged || exit 1
+
+echo "[pre-commit] Running fast build/type/lint verification..."
+pnpm -s precommit:verify || exit 1
