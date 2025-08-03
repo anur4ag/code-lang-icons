@@ -47,12 +47,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/code-lang-icons.git"
+    "url": "https://github.com/anur4ag/code-lang-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/your-org/code-lang-icons/issues"
+    "url": "https://github.com/anur4ag/code-lang-icons.git/issues"
   },
-  "homepage": "https://github.com/your-org/code-lang-icons#readme",
+  "homepage": "https://github.com/anur4ag/code-lang-icons.git#readme",
   "publishConfig": {
     "access": "public"
   },
